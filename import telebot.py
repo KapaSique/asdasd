@@ -5,7 +5,7 @@ from telebot import types
 
 bot = telebot.TeleBot('1713006046:AAFlbNuIwIZnkRCcyyREv58sqeDyT94xI0U')
 
-date = 1
+date = isoweekday()
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
